@@ -10,12 +10,14 @@ package herencias3;
  * @author USUARIO
  */
 public class Docente extends Persona{
+    //Atributo de la clase
     private double sueldo;
-
+    //Constructor de la clase
     public Docente(String n, String a, int e, double s){
         super(n, a, e);
         setSueldo(s);
     }
+    //Metodos de agregar y obtener
      public void setSueldo(double s){
         sueldo = s;
     }
@@ -23,6 +25,7 @@ public class Docente extends Persona{
     public double getSueldo(){
         return sueldo;
     } 
+    //Metodo de sobreescribir el toString
     @Override
     public String toString(){
     

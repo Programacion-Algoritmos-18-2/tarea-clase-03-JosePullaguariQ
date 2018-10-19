@@ -11,13 +11,14 @@ package herencias3;
  * @author reroes
  */
 public class Estudiante extends Persona{
+    //Atributo de la clase
     private double matricula;
-    
+    //Constructor de la clase
     public Estudiante(String n, String a, int e, double mat){
         super(n, a, e);
         setMatricula(mat);
     }
-    
+    //Metodos de agregar y obtener
     @Override
     public void setNombre(String n){
         nombre = n.toUpperCase();    

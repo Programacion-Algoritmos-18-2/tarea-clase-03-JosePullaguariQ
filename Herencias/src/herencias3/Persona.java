@@ -11,17 +11,17 @@ package herencias3;
  * @author reroes
  */
 public class Persona {
-    
+    //Atributos de la clase father
     protected String nombre;
     private String apellido;
     private int edad;
-    
+    //Constructor de la clase con 3 parametros
     public Persona(String n, String a,  int e){
         setNombre(n);
         setApellido(a);
         setEdad(e);
     }
-    
+    //Metodos de agregar y obtener
     public void setNombre(String n){
         nombre = n;
     }
@@ -45,7 +45,7 @@ public class Persona {
     public String getApellido(){
         return apellido;
     }
-    
+    //Metodo de sobreescribir el toString
     @Override
     public String toString(){
         return String.format("Nombre: %s - Apellido %s - Edad %d", 

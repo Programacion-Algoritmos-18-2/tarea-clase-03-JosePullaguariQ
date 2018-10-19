@@ -10,12 +10,14 @@ package herencias3;
  * @author USUARIO
  */
 public class Policia extends Persona {
+    //Atributo de la clase 
     private String rango;
-
+    //Constructor de la clase
     public Policia(String n, String a, int e, String r){
         super(n, a, e);
         setRango(r);
     }
+    //Metodos de agregar y obtener
      public void setRango(String r){
         rango = r;
     }
@@ -23,6 +25,7 @@ public class Policia extends Persona {
     public String getRango(){
         return rango;
     } 
+    //Metodo de sobreescribir el toString
     @Override
     public String toString(){
     
