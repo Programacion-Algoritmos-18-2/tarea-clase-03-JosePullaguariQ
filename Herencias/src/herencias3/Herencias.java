@@ -15,14 +15,16 @@ public class Herencias {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //Creamos objeto para la clase Estudiante
         Estudiante e = new Estudiante("René", "Elizalde", 33, 100.2);
         System.out.println(e);
         
-        Docente d = new Docente("Luis", "Alvarez", 33, 1000); // falta implementar
+        //Creamos el objeto para la clase Docente
+        Docente d = new Docente("Luis", "Alvarez", 33, 1000);
         System.out.println(d);
         
-        Policia p = new Policia("ALEX", "MENDOZA", 33, "Cabo"); // falta implementar
+        //Creamos el objeto para la clase Policia
+        Policia p = new Policia("ALEX", "MENDOZA", 33, "Cabo");
         System.out.println(p);
         
     }
